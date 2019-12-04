@@ -1,15 +1,15 @@
 {
-  "name": "@philly25/react-native-paytm",
-  "version": "1.0.12",
+  "name": "vogo-react-native-paytm",
+  "version": "1.0.13",
   "description": "Unofficial React Native wrapper for PayTM",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/opsway/react-native-paytm.git"
+    "url": "git+https://github.com/chandrasekarvogo/react-native-paytm.git"
   },
   "_npmUser": {
-    "email": "baldinant@gmail.com",
-    "name": "Anton Baldin"
+    "email": "chancmg007@gmail.com",
+    "name": "chandrasekar"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,9 +21,9 @@
   "author": "Anton Baldin <baldinant@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/opsway/react-native-paytm/issues"
+    "url": "https://github.com/chandrasekarvogo/react-native-paytm/issues"
   },
-  "homepage": "https://github.com/opsway/react-native-paytm#readme",
+  "homepage": "https://github.com/chandrasekarvogo/react-native-paytm#readme",
   "directories": {
     "example": "example"
   },
