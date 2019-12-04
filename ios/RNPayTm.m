@@ -28,7 +28,12 @@ RCT_EXPORT_METHOD(startPayment: (NSDictionary *)details)
     orderDict[@"CUST_ID"] = details[@"CUST_ID"];
     orderDict[@"CHECKSUMHASH"] = details[@"CHECKSUMHASH"];
     orderDict[@"CALLBACK_URL"] = details[@"CALLBACK_URL"];
-
+    if (details[@"REQUEST_TYPE"]) {
+        orderDict[@"REQUEST_TYPE"] = details[@"REQUEST_TYPE"];    
+    }
+    if (details[@"SSO_TOKEN"]) {
+        orderDict[@"SSO_TOKEN"] = details[@"SSO_TOKEN"];    
+    }
     if (details[@"MERC_UNQ_REF"]) {
         orderDict[@"MERC_UNQ_REF"] = details[@"MERC_UNQ_REF"];
     }
